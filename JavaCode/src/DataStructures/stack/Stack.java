@@ -5,4 +5,5 @@ public interface Stack<E> {
     public E pop();
     public boolean contains(E item);
     public E access(E item);
+    public int size();
 }
