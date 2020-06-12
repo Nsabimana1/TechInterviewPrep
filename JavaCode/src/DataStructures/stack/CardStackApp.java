@@ -3,8 +3,10 @@ package DataStructures.stack;
 import DataStructures.stack.BasicStack;
 
 public class CardStackApp {
-    BasicStack<String> stack = new BasicStack<String>();
+//    BasicStack<String> stack = new BasicStack<String>();
 
+//    Stack<String> stack = new AdvancedStack<>();
+    Stack<String> stack = new BasicStack<>();
     public static void main(String[] args) {
         CardStackApp app = new CardStackApp();
         app.stackCards();

@@ -1,9 +1,13 @@
 package DataStructures.stack;
 
 public interface Stack<E> {
-    public void push(E item);
-    public E pop();
-    public boolean contains(E item);
-    public E access(E item);
-    public int size();
+    void push(E item);
+    E pop();
+    boolean contains(E item);
+    E access(E item);
+    int size();
+
+    default int add(){
+        return 8;
+    }
 }
